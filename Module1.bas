@@ -8,11 +8,6 @@ Sub day()
         Next
     Next
 End Sub
-Sub datainput()
-    Cells(3, 4).Value = InputBox("D3のデータを入力してください", " A店データ入力")
-    Cells(3, 6).Value = InputBox("F3のデータを入力してください", " B店データ入力")
-    Cells(3, 8).Value = InputBox("H3のデータを入力してください", " C店データ入力")
-    Cells(3, 10).Value = InputBox("J3のデータを入力してください", " D店データ入力")
-    Cells(3, 12).Value = InputBox("L3のデータを入力してください", " E店データ入力")
+Sub clear()
+    Range(Cells(3, 3), Cells(33, 12)).Value = ""
 End Sub
-
