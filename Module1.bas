@@ -7,6 +7,16 @@ Sub “úŒv6ŒŽ”Å()
              ActiveSheet.Cells(i, j).Value = Abs(ActiveSheet.Cells(i, j + 1).Value - ActiveSheet.Cells(i - 1, j + 1).Value)
         Next
     Next
+    
+    Dim sheetName As String
+    Dim month As Integer
+    Dim day As String
+    sheetName = ActiveSheet.Name
+    month = ActiveSheet.Cells(1, 1).Value
+    For i = 3 To 33
+        day = Cells(i, 1).Value
+    
+    Worksheets(month + "ŒŽ").Active
 End Sub
 Sub clear()
     Range(ActiveSheet.Cells(3, 3), ActiveSheet.Cells(33, 12)).Value = ""
