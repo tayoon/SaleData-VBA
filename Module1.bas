@@ -12,7 +12,7 @@ Sub “úŒv6ŒŽ”Å()
     Dim month As Integer
     Dim day As String
     sheetName = ActiveSheet.Name
-    month = ActiveSheet.Cells(1, 1).Value
+    month = 6
     For i = 3 To 33
         day = Cells(i, 1).Value
     
