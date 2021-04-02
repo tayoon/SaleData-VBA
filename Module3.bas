@@ -1,5 +1,7 @@
 Attribute VB_Name = "Module3"
-Sub “úŒv8Œ”Å()
+' SÖ‹´ 8Œ'
+
+Sub shinsaibashi_8()
     Dim i As Integer
     Dim j As Integer
     For j = 3 To 11 Step 2      ' —ñ3~11‚ğ2—ñ”ò‚Î‚µ‚Å‘I‘ğ

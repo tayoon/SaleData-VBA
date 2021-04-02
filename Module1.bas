@@ -1,6 +1,9 @@
 Attribute VB_Name = "Module1"
-Sub 日計6月版()
+' 心斎橋 6月'
+
+Sub shinsaibasshi_6()    '累計から日計を導出'
     Dim i As Integer
+     
     Dim j As Integer
     For j = 3 To 11 Step 2      ' 列3~11を2列飛ばしで選択
         For i = 3 To 33     '行3~33を選択
@@ -12,6 +15,14 @@ Sub 日計6月版()
     Dim month As Integer
     Dim day As String
     sheetName = ActiveSheet.Name
+    If sheetName = "心斎橋" Then
+        
+    ElseIf sheetName = "京都" Then
+    
+    ElseIf sheetName = "神戸" Then
+    
+    ElseIf sheetName = "梅田" Then
+    End If
     month = 6
     For i = 3 To 33
         day = Cells(i, 1).Value
